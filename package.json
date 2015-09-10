@@ -1,0 +1,38 @@
+{
+  "name": "jspm-getdir",
+  "version": "0.0.0",
+  "description": "Returns the full path to a jspm package",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "node test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joeycadle/jspm-getdir.git"
+  },
+  "author": {
+    "name": "Joey Cadle Allgaier",
+    "email": "joey@joeycadle.com",
+    "url": "https://github.com/joeycadle"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10 <=0.12 || >=1 <=3"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "fs": "0.0.2",
+    "path": "^0.11.14"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "twbs/bootstrap-sass": "github:twbs/bootstrap-sass@3.3.5"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  }
+}
