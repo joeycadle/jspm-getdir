@@ -21,7 +21,6 @@
   },
   "dependencies": {
     "lodash": "^3.10.1",
-    "fs": "0.0.2",
     "path": "^0.11.14"
   },
   "jspm": {
